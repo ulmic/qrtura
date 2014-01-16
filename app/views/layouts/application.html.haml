@@ -1,0 +1,12 @@
+%html
+%head
+  %title
+    Qrtura
+  = stylesheet_link_tag    "application"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
+%body
+  .offset1.span8
+    = yield
+    - if admin_signed_in?
+      = link_to t('sign_out'), admin_sessions_path, method: :delete, class: 'btn btn-danger'

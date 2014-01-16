@@ -1,0 +1,15 @@
+ru:
+  auth: Войти
+  sign_out: Выйти
+  cancel: Отмена
+  new: Добавить
+  admin:
+    pages:
+      index:
+        title: Страницы
+        edit: Изменить страницу
+        destroy: Удалить страницу
+      new:
+        title: Новая страница
+      edit:
+        title: Изменить страницу
