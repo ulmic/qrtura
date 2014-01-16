@@ -9,6 +9,9 @@ gem 'bootstrap_flash_messages'
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'russian'
+gem 'ckeditor'
+gem "carrierwave"
+gem "mini_magick"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

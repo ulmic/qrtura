@@ -1,4 +1,6 @@
 Qrtura::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
+
   root to: 'welcome#index'
   resources :pages, only: :show
 
