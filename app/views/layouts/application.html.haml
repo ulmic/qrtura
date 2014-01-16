@@ -8,3 +8,5 @@
 %body
   .offset1.span8
     = yield
+    - if admin_signed_in?
+      = link_to t('sign_out'), admin_sessions_path, method: :delete, class: 'btn btn-danger'
