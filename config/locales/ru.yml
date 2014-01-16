@@ -6,3 +6,5 @@ ru:
     pages:
       index:
         title: Страницы
+      new:
+        title: Новая страница
