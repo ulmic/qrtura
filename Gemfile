@@ -5,7 +5,9 @@ gem 'sqlite3'
 gem 'haml'
 gem 'twitter-bootstrap-rails'
 gem 'haml-rails'
+gem 'bootstrap_flash_messages'
 gem 'jquery-rails'
+gem 'simple_form'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
