@@ -2,7 +2,11 @@ ru:
   activerecord:
     models:
       admin: Администратор
+      page: Страница
     attributes:
       admin:
         login: Логин
         password: Пароль
+      page:
+        title: Заголовок
+        text: Текст

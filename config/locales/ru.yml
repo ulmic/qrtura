@@ -1,3 +1,8 @@
 ru:
   auth: Войти
   cancel: Отмена
+  new: Добавить
+  admin:
+    pages:
+      index:
+        title: Страницы
