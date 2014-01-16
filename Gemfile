@@ -27,3 +27,12 @@ group :test do
   gem 'tconsole'
   gem 'pry'
 end
+
+group :production do
+  gem 'unicorn'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'capi'
+  gem 'capistrano_colors'
+  gem 'pg'
+end
