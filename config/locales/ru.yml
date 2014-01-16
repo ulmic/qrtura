@@ -1,0 +1,10 @@
+ru:
+  auth: Войти
+  cancel: Отмена
+  new: Добавить
+  admin:
+    pages:
+      index:
+        title: Страницы
+      new:
+        title: Новая страница
