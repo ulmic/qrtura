@@ -100,6 +100,8 @@ GEM
     rake (10.1.1)
     rdoc (3.12.2)
       json (~> 1.4)
+    russian (0.6.0)
+      i18n (>= 0.5.0)
     sass (3.2.13)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -155,6 +157,7 @@ DEPENDENCIES
   minitest
   pry
   rails (= 3.2.13)
+  russian
   sass-rails (~> 3.2.3)
   simple_form
   simplecov

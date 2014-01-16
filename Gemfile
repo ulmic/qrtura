@@ -8,6 +8,7 @@ gem 'haml-rails'
 gem 'bootstrap_flash_messages'
 gem 'jquery-rails'
 gem 'simple_form'
+gem 'russian'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
