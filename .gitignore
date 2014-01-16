@@ -1,0 +1,17 @@
+/.bundle
+/.idea
+/db/*.sqlite3
+/log/*.log
+/tmp
+*~
+/public/*
+!fonts/
+/coverage
+*.swn
+*.swp
+*.swo
+*.swm
+/config/database.yml
+/.sass-cache
+.vagrant
+*.sqlite3-journal
