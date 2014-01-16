@@ -1,7 +1,7 @@
 class Admin::SessionsController < ApplicationController
   def new
     if admin_signed_in?
-      redirect_to admin_users_path
+      redirect_to admin_pages_path
     else
       @admin = Admin.new
     end

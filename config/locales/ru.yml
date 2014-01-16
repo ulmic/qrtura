@@ -6,5 +6,7 @@ ru:
     pages:
       index:
         title: Страницы
+        edit: Изменить страницу
+        destroy: Удалить страницу
       new:
         title: Новая страница
