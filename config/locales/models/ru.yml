@@ -1,0 +1,8 @@
+ru:
+  activerecord:
+    models:
+      admin: Администратор
+    attributes:
+      admin:
+        login: Логин
+        password: Пароль
