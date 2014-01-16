@@ -27,3 +27,7 @@ group :test do
   gem 'tconsole'
   gem 'pry'
 end
+
+group :production do
+  gem 'pg'
+end
