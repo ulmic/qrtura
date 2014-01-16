@@ -1,5 +1,6 @@
 ru:
   auth: Войти
+  sign_out: Выйти
   cancel: Отмена
   new: Добавить
   admin:
