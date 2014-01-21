@@ -30,4 +30,9 @@ end
 
 group :production do
   gem 'pg'
+  gem 'unicorn'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'capi'
+  gem 'capistrano_colors'
 end
